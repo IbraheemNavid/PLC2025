@@ -33,7 +33,7 @@ class Circle {
   private Boolean shouldPaintS(int s, int i, int j){
     return Math.abs (sqr(i) + sqr(j) - sqr(s)) <= s+1;
   }
-
+//edit made by ibraheem
   private static double sqr(double b){
     // System.out.println("dbl called"); // BAD!
     return Math.pow(b,2);
